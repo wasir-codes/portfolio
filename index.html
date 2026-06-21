@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasir Jayed Rafi - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="#hero">
+            <div class="nav-logo">wasir<span>.codes</span></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-label">Full Stack Developer in Training</p>
+                <h1 class="hero-name">Wasir Jayed Rafi</h1>
+                <p class="hero-desc">
+                    Building towards a Junior Software Engineer role by end of 2026.
+                    Currently mastering Python, SQL, HTML/CSS, and JavaScript.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>           
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="images/profile.jpg" alt="Wasir Jayed Rafi"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-inner">
+            <p class="section-label">WHO I AM</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-text">
+                <p>
+                    I'm a full stack web development student based in Khulna, Bangladesh,
+                    currently enrolled in an intensive 8-month program covering the complete
+                    modern web stack — from Python and databases all the way to Django REST APIs and React.
+                </p>
+                <p>
+                    I put in 40+ hours a week, maintain a daily GitHub commit streak, and
+                    practice problem-solving on LeetCode consistently. My goal is to land 
+                    a Junior Software Engineer role by the end of 2026 — local or remote.
+                </p>
+            </div>
+        </div>
+    </section> 
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-inner">
+            <p class="section-label">WHAT I KNOW</p>
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>OOP, file handling, error handling, APIs with requests library, CLI apps</p>
+                </div>                
+
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>SQL / PostgreSQL</h3>
+                    <p>Schema design, joins, aggregations, window functions, views, triggers</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Semantic HTML5, forms, accessibility, structured layouts</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Flexbox, Grid, transitions, animations, custom properties</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, async/await, Fetch API — currently learning</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐙</div>
+                    <h3>Git / GitHub</h3>
+                    <p>Daily commits, branching, pull requests, GitHub Actions basics</p>
+                </div>
+                
+            </div>
+        </div>
+    </section> 
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-inner">
+            <p class="section-label">WHAT I'VE BUILT</p>
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-tag">Python · CLI</div>
+                    <h3>CLI To-Do App</h3>
+                    <p>
+                        A command-line task manager with add, view, delete, and complete features.
+                        Data persists using JSON file storage. Built with OOP — Task and TodoList classes.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/wasir-codes/cli-todo-app" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-tag">Python · API</div>
+                    <h3>Weather CLI App</h3>
+                    <p>
+                        Fetches live weather data from OpenWeatherMap API. Handles invalid cities,
+                        network errors, and missing API keys gracefully. Secrets stored via .env.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/wasir-codes/weather-cli-app" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-tag">PostgreSQL · Schema</div>
+                    <h3>E-Commerce Database</h3>
+                    <p>
+                        A 6-table relational schema — users, categories, products, orders, order items,
+                        payments. Includes a restock trigger and a revenue summary view.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/wasir-codes/ecommerce-db" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-tag">HTML · CSS</div>
+                    <h3>This Portfolio</h3>
+                    <p>
+                        Hand-coded personal portfolio in pure HTML and CSS. No frameworks, no JavaScript.
+                        Demonstrates semantic HTML, Flexbox/Grid layout, and CSS animations.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/wasir-codes/portfolio" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </article>                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-inner">
+            <p class="section-label">GET IN TOUCH</p>
+            <h2 class="section-title">Contact</h2>
+            <p class="contact-desc">
+                Open to junior developer roles, internships, and freelance opportunities.
+                Based in Khulna, Bangladesh — available for remote work.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:wasir.codes@gmail.com" class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <span>wasir.codes@gmail.com</span>
+                </a>
+                <a href="https://github.com/wasir-codes" class="contact-card" target="_blank">
+                    <span class="contact-icon">🐙</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/wasir-codes" class="contact-card" target="_blank">
+                    <span class="contact-icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>    
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Wasir Jayed Rafi · Built with HTML & CSS</p>
+    </footer>    
+
+</body>
+</html>
